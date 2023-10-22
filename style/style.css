@@ -9,6 +9,7 @@
     max-width: 1150px;
     margin: 0 auto;
     padding: 0 10px;
+   
 }
 
 a {
@@ -28,12 +29,12 @@ button {
 }
 
 .nav-link:hover::before {
-   width: 100%;
+    width: 100%;
 }
 
 .nav-link:hover::after {
     width: 70%;
- }
+}
 
 .nav-link::before {
     position: absolute;
@@ -44,7 +45,7 @@ button {
     height: 2px;
     background-color: #F53838;
     transition: 0.6s;
-    
+
 }
 
 .nav-link::after {
@@ -57,7 +58,7 @@ button {
     height: 2px;
     background-color: #F53838;
     transition: 0.6s;
-    transform:translate(-50%, 0) ;
+    transform: translate(-50%, 0);
 }
 
 
@@ -94,6 +95,8 @@ button {
     flex-wrap: wrap;
 }
 
+
+
 .col-6 {
     width: 50%;
     padding: 15px;
@@ -104,9 +107,12 @@ button {
     padding: 15px;
 }
 
+
+
 .box {
+    height: 100%;
     width: 100%;
-    
+
 }
 
 p {
@@ -123,7 +129,7 @@ p {
     margin-top: 50px;
     border-radius: 10px;
     background: #F53838;
-    padding: 17.5px 0;
+    height: 60px;
     border: none;
     color: #FFF;
     font-size: 16px;
@@ -227,10 +233,7 @@ h4 {
     background: linear-gradient(180deg, #F8F8F8 -45.04%, rgba(248, 248, 248, 0.00) 88.56%);
 }
 
-.col-4 {
-    width: 33.33%;
-    padding: 25px;
-}
+
 
 .cart-wrapper {
     display: flex;
@@ -245,6 +248,7 @@ h4 {
 .cart-wrapper:hover {
     border: 2px solid #F53838;
 }
+
 .gap {
     margin-right: 20px;
     margin-top: 2px;
@@ -273,10 +277,11 @@ h4 {
 }
 
 .cart-btn:hover {
-   
+
     background-color: #F53838;
     color: #FFF;
 }
+
 .cart-svg {
     margin-top: 50px;
     margin-left: 55px;
@@ -298,9 +303,9 @@ h4 {
 }
 
 .global-img {
-   margin-left: 30px;
+    margin-left: 30px;
     margin-top: 150px;
-    
+
 }
 
 .sponsored {
@@ -319,4 +324,170 @@ h4 {
 .title-svg {
     margin-right: 10px;
     margin-top: 2px;
+}
+
+.user {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+}
+
+.user-name {
+    display: flex;
+    flex-direction: column;
+    margin-left: 15px;
+    margin-top: 5px;
+    margin-right: 80px;
+    width: 145px;
+}
+
+h5 {
+    color: #0B132A;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.user-name p {
+    font-size: 14px;
+}
+
+.user-svg {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    margin-top: 10px;
+    color: #0B132A;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.user-svg svg {
+    margin-top: 5px;
+}
+
+.user-coment {
+    width: 340px;
+
+}
+
+.user-box {
+    padding: 30px;
+    border-radius: 10px;
+    border: 2px solid #DDD;
+    background: #FFF;
+    transition: 0.6s;
+    margin-right: 20px
+}
+
+.user-box:hover {
+    border: 2px solid #F53838;
+}
+
+.margin {
+    padding-bottom: 88px;
+}
+
+.margin-1 {
+    padding-bottom: 58px;
+}
+
+.col-4 {
+    width: 33.33%;
+    padding: 15px;
+    margin-top: 60px;
+}
+
+.user-wrapper:nth-child(3) {
+    position: absolute;
+
+}
+
+.last-section {
+    width: 1440px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.user-button {
+    margin-right: 150px;
+    display: flex;
+    flex-direction: row;
+}
+
+.user-svg_2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 60px;
+}
+
+.user-btn {
+    background-color: #FFF;
+    border: none;
+   margin-bottom:165px;
+   margin-right: 20px;
+
+}
+
+.dot {
+    margin-top: 15px;
+}
+.user-btn1 {
+    background-color: transparent;
+    border: none;
+    margin: -40px;
+    margin-bottom:100px;
+}
+
+.last-items {
+    padding: 60px 70px;
+    border-radius: 10px;
+    background: #FFF;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    box-shadow: 1px 20px 80px -47px rgba(13, 16, 37, 0.47);
+    width: 1130px;
+    position: absolute;
+    top: 570px;
+}
+
+.item-text {
+    width: 370px;
+}
+
+.margin-top {
+    margin-top: 30px;
+}
+
+.footer-wrapper {
+    background: #F8F8F8;
+    margin-top: 700px;
+    padding-top: 200px;
+}
+
+.footer-block_2 {
+    display: flex;
+    flex-direction: row;
+    gap: 126px;
+}
+
+.colon h5 {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.colon p {
+    line-height: 2.5;
+}
+
+.footer-block_1 p {
+    margin: 30px 0;
+    width: 340px;
+}
+
+.media {
+    margin-left: -20px;
+    margin-bottom: -25px;
+
 }
